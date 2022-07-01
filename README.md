@@ -11,9 +11,11 @@ O **KNN** é um algoritmo não paramétrico, aonde a estrutura do modelo será d
 Neste algoritmo possuímos uma variável chamada de K, a qual é parte do nome do modelo e também o principal parâmetro a ser selecionado. Este parâmetro direcionará a quantidade de vizinhos (neighborn em inglês). Em casos de modelos binários, aonde possuímos apenas duas classes, em geral aplicasse valores ímpares a K, mas lembre que cada caso é um caso, “No free lunch”. Imagine que temos um valor P1 o qual queremos predizer, entre um grupo de duas classes aonde o valor atribuído a K foi 1 (K=1), primeiro iremos identificar o ponto mais próximo a ele e depois qual a label que o identifica (classe A por exemplo)
 
 ![XHTML válido](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1531424125/Knn_k1_z96jba.png)
+
 Após identificar o ponto mais próximo e identificar a label deste ponto (Ex.: Classe A), iremos predizer a que classe o ponto P1 faz parte. Para identificar de fato a que grupo o ponto P1 faz parte, iremos realizar uma votação aonde a maioria irá dizer a que classe este ponto P1 realmente faz parte.
 
 ![XHTML válido](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sSCsz2ohxNRC2NGdIBWLoZM_j4YSeiXUVwFghDQxC1nPPIQX)
+
 Simples, iremos utilizar medida de distância para identificar a distância existente entre o ponto P1 e os demais pontos do meu dataset, como K=1 o algoritmo irá verificar ponto a ponto, caso coloque o valor K=3 ele ira olhar a distância de P1 em relação a 3 pontos. Desta forma termos e distância existente entre P1 e todos os pontos do meu dataset, assim conseguiremos saber a quais pontos P1 é mais próximo, desta forma teremos qual classe ele é mais similar. Assim a “votação” será concluída, e saberemos como classificar P1.
 
 #### Para encontrarmos a distância entre os pontos poderemos utilizar as seguintes medidas
