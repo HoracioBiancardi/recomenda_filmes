@@ -1,11 +1,11 @@
 # Sistame para recomendação - filmes
 
-O sistema de recomendação é um sistame que busca prever ou filtrar preferências de acordo com as escolhas do usuários. 
-O sistemas de recomendação são utilizados em uma variedades de áreas, incluindo filmes, músicas, notícias, 
+O sistema de recomendação é um sistame que busca prever ou filtrar preferências de acordo com as escolhas do usuários.
+O sistemas de recomendação são utilizados em uma variedades de áreas, incluindo filmes, músicas, notícias,
 artigos de pesquisa, consultas de pesquisa, marcas sociais e produtos em geral.
 Os sistemas de recomendação produzem uma lista de recomendações em qualquer uma das duas maneiras
 
-filtragem colaborativa 
+filtragem colaborativa
 
 filtragem baseada em conteudos
 
@@ -20,7 +20,7 @@ As dempendencias desse projeto são:
 ### Installing
 
 Install "nome" with pip (Latest version):
-
+teste
 ```
 Conteudo
 ```
